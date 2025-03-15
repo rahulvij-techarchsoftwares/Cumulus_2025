@@ -126,7 +126,7 @@ const App = () => {
         <Route path="/privacy" element={<Privacy/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
-        <Route path="/Subscription" element={<Subscription />} />
+       
         <Route path="/updatepassword" element={<Updatepassword />} />
         <Route path="/enterdashboard" element={<Enterdashboard />} />
         {/* <Route path="/updatepassword" element={<Updatepassword />} /> */}
@@ -152,6 +152,7 @@ const App = () => {
                 </PrivateRoute>
               }
             />
+           <Route path="/Subscription" element={<Subscription />} />
           )}
 
         {/* <Route path="/SharedFiles" element={<PublicLayout />} /> */}
